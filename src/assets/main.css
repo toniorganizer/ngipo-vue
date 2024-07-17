@@ -1,0 +1,395 @@
+@import './base.css';
+
+#app {
+  font-family: 'montserrat', sans-serif;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar a {
+  color: #ffa33c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  color: #ffa33c;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.sub-layanan hr {
+  z-index: 1;
+}
+
+.navbar-brand.scrolled {
+  color: white;
+}
+.nav-link {
+  color: #ffa33c;
+}
+
+.nav-link.scrolled {
+  color: white;
+}
+
+.navbar-color {
+  background-color: #ffa33c;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
+/* Hero section */
+.hero-tagline h1 {
+  color: #3f3d56;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.hero-tagline p {
+  color: #3f3d56;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.hero-cheklist span {
+  font-weight: 600 !important;
+}
+
+.hero-tagline button {
+  border-color: #3f3d56;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 30px;
+  width: 389px;
+  height: 46px;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 5px 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+.img-hero {
+  width: 100%;
+}
+
+/* Layanan kami */
+
+#layanan h2 {
+  color: #3f3d56;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#layanan h3 {
+  color: #ffa33c;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#layanan p {
+  color: #2f2e41;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#layanan img {
+  margin-top: -30px;
+}
+
+.sub-layanan hr {
+  height: 2px;
+}
+
+.proses span {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.proses {
+  width: auto;
+}
+
+.kedua {
+  margin-top: 80px;
+  width: auto;
+}
+
+.ketiga {
+  margin-top: 80px;
+}
+
+/* Tema undangan */
+#undangan {
+  margin-top: 50px;
+}
+
+#undangan h2 {
+  font-size: 32px;
+  color: #2f2e41;
+  font-weight: 600;
+}
+
+.card-undangan {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.09);
+  margin-bottom: 50px;
+}
+
+.card-undangan img {
+  width: 100%;
+  height: auto;
+}
+
+.card-undangan button {
+  border: none;
+  background-color: #ffa33c;
+  border-radius: 0 10px 0 10px;
+  margin: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+
+/* Penilian mereka */
+
+#penilaian h2 {
+  color: #3f3d56;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card-penilaian {
+  height: 115px;
+  width: 100%;
+  border: 1px solid #2f2e41;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-penilaian p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-penilaian .nama {
+  font-weight: 600;
+}
+
+/* konsultasi */
+#konsultasi h2 {
+  color: #3f3d56;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#konsultasi p {
+  color: #3f3d56;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form-floating input {
+  height: 56px !important;
+  border: 1 solid #ffa33c !important;
+}
+
+.konfirmasi {
+  border: none;
+  background-color: #402e7c;
+  height: 56px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo img {
+  height: 160px;
+}
+
+.akhir span {
+  color: #2f2e41;
+  font-weight: 600;
+}
+
+/* dibawah 992px */
+@media screen and (max-width: 992px) {
+  .img-hero {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  #layanan {
+    margin-top: 350px;
+  }
+
+  .sub-layanan img {
+    width: 100%;
+  }
+
+  .proses {
+    width: 100%;
+  }
+
+  .proses span {
+    font-size: 16px;
+  }
+
+  .layanan-proses p {
+    font-size: 16px;
+  }
+
+  #konsultasi p {
+    font-size: 14px;
+  }
+
+  .kedua {
+    width: auto;
+  }
+
+  .layanan-proses h2 {
+    margin-top: 30px;
+  }
+  .logo img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-tagline button {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .hero-tagline h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+
+  .hero-tagline p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  #layanan {
+    margin-top: 200px;
+  }
+
+  #layanan h2 {
+    font-size: 30px;
+  }
+
+  #layanan h3 {
+    font-size: 18px;
+  }
+
+  #layanan p {
+    font-size: 14px;
+  }
+
+  .sub-layanan img {
+    width: 100%;
+  }
+
+  .proses span {
+    font-size: 14px;
+  }
+
+  .card-penilaian p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .proses {
+    width: 100%;
+  }
+
+  .proses span {
+    font-size: 8px;
+  }
+
+  .kedua span {
+    font-size: 14px;
+  }
+
+  .kedua {
+    width: auto;
+    height: auto;
+  }
+
+  .card-undangan {
+    margin-top: -20px;
+  }
+
+  .card-undangan {
+    width: min-content;
+  }
+  .card-undangan img {
+    height: min-content;
+    width: min-content;
+  }
+  #konsultasi p {
+    font-size: 16px;
+  }
+
+  #konsultasi label {
+    font-size: 14px;
+  }
+
+  #konsultasi button {
+    font-size: 14px;
+  }
+
+  #konsultasi button img {
+    width: min-content;
+    height: min-content;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .hero-tagline h1 {
+    font-size: 30px;
+  }
+
+  .hero-tagline p {
+    font-size: 14px;
+  }
+
+  .hero-cheklist span {
+    font-size: 12px;
+  }
+
+  .kedua {
+    width: 100%;
+    height: auto;
+  }
+
+  .kedua span {
+    font-size: 10px;
+  }
+
+  .logo img {
+    height: min-content;
+    width: 100%;
+  }
+}
