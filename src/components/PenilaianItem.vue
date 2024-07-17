@@ -3,7 +3,7 @@
     <div class="container">
       <h2>Penilaian Mereka</h2>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-right" data-aos-duration="2000">
           <div class="card-penilaian">
             <p>Desain sangan minimalis dan dapat memikat pelanggan.</p>
             <div class="d-flex justify-content-between">
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-right" data-aos-duration="2000">
           <div class="card-penilaian">
             <p>Sangat memuaskan, revisi dapat dilakukan berkali-kali.</p>
             <div class="d-flex justify-content-between">
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-6 col-sm-6 mt-3" data-aos="fade-right" data-aos-duration="2000">
           <div class="card-penilaian">
             <p>Pelayanan sangat baik, Sangat suka dengan hasilnya.</p>
             <div class="d-flex justify-content-between">

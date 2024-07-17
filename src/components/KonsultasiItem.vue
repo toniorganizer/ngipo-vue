@@ -2,7 +2,7 @@
   <div id="konsultasi">
     <div class="container mt-5">
       <h2>Konsultasi Sekarang</h2>
-      <div class="row" data-aos="fade-left" data-aos-duration="2000">
+      <div class="row" data-aos="fade-right" data-aos-duration="2000">
         <div class="col-lg-6">
           <p>
             Silakan isi form dibawah ini untuk melakukan Konsultasi dengan tim professional kami
