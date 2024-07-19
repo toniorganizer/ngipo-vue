@@ -10,12 +10,19 @@
           </p>
 
           <div class="form-floating mb-3 mt-4">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Nama anda" />
+            <input
+              type="text"
+              v-model="name"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Nama anda"
+            />
             <label for="floatingInput">Nama</label>
           </div>
           <div class="form-floating mb-3">
             <input
               type="text"
+              v-model="phone"
               class="form-control"
               id="floatingInput"
               placeholder="No. Whatshapp"
@@ -23,8 +30,18 @@
             <label for="floatingInput">No. Whatshapp</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Nama anda" />
-            <label for="floatingInput">Pilih layanan</label>
+            <select
+              class="form-select"
+              id="floatingSelect"
+              v-model="service"
+              aria-label="Floating label select example"
+            >
+              <option disabled value="">Pilih salah satu layanan</option>
+              <option value="website">Pengembangan Website</option>
+              <option value="landingpage">Membuat Landing Page</option>
+              <option value="undangan">Undangan</option>
+            </select>
+            <label for="floatingSelect">Pilih layanan</label>
           </div>
 
           <button @click="NavWhatshapp" class="konfirmasi">
@@ -50,10 +67,19 @@
 
 <script>
 export default {
+  data() {
+    return {
+      name: '',
+      phone: '',
+      service: ''
+    }
+  },
   methods: {
     NavWhatshapp() {
       const phoneNumber = '6281282782626'
-      const message = encodeURIComponent('Halo, saya ingin konsultasi gratis sekarang.')
+      const message = encodeURIComponent(
+        `Halo, saya ${this.name}. No. WhatsApp saya ${this.phone}. Saya ingin konsultasi mengenai ${this.service}.`
+      )
       const url = `https://wa.me/${phoneNumber}?text=${message}`
       window.open(url, '_blank')
     }
