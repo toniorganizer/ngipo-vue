@@ -25,7 +25,7 @@
           </button>
         </div>
         <div class="col-lg-6 my-auto" data-aos="fade-up" data-aos-duration="2000">
-          <img src="../assets/icon/img-hero.png" class="img-hero" alt="" />
+          <img src="../assets/icon/img-hero-2.png" class="img-hero" alt="" />
         </div>
       </div>
     </div>
@@ -34,9 +34,9 @@
     <div class="container h-100 d-lg-none">
       <div class="row h-100">
         <div class="col-lg-6 my-auto" data-aos="fade-up" data-aos-duration="2000">
-          <img src="../assets/icon/img-hero.png" class="img-hero" alt="" />
+          <img src="../assets/icon/img-hero-2.png" class="img-hero" alt="" />
         </div>
-        <div class="col-lg-6 my-auto hero-tagline" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-lg-6 my-auto hero-tagline mt-3" data-aos="fade-up" data-aos-duration="2000">
           <h1>Desain Web dan Undangan yang Memikat</h1>
           <p class="mt-2">
             NGINPO hadir dengan layanan-layanan solusi digital yang unggul dan kreatif sesuai dengan

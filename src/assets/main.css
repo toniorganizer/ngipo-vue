@@ -700,7 +700,7 @@
   }
 
   #layanan {
-    margin-top: 350px;
+    margin-top: 400px;
   }
 
   .sub-layanan img {
@@ -811,7 +811,7 @@
   }
 
   #layanan {
-    margin-top: 200px;
+    margin-top: 230px;
   }
 
   #layanan h2 {
@@ -910,6 +910,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  #layanan {
+    margin-top: 220px;
+  }
+
   .proses {
     width: 100%;
   }
@@ -1041,6 +1045,12 @@
   .logo img {
     height: min-content;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #layanan {
+    margin-top: 190px;
   }
 }
 
