@@ -47,6 +47,10 @@
   transition: all ease-in-out 0.3s;
 }
 
+.navbar-nav li .nav-link {
+  font-size: 18px;
+}
+
 /* Hero section */
 .hero-tagline h1 {
   color: #3f3d56;
@@ -80,6 +84,38 @@
 
 .img-hero {
   width: 100%;
+  -webkit-animation: upDown 10s infinite;
+  animation: upDown 10s infinite;
+}
+
+@-webkit-keyframes upDown {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 }
 
 /* Layanan kami */
@@ -226,6 +262,435 @@
   font-weight: 600;
 }
 
+/* Invited */
+#invited {
+  /* background-color: aqua; */
+  height: 65vh;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.hero-invited {
+  background-image: url(../assets/img/Hero-invited.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-invited h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+}
+
+.hero-invited p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Price list invited */
+
+.price-item h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3f3d56;
+}
+
+.price-item p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-price-invited {
+  height: 338px;
+  width: 270px;
+  border: 2px solid #ffa33c;
+  border-radius: 0 20px 0 20px;
+  padding: 20px;
+}
+
+.card-price-invited:hover {
+  border-radius: 20px 0 20px 0;
+  background-color: #6c63ff;
+  transition: all 0.2s ease-in;
+}
+
+.header-card-invited h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-price-invited:hover h2 {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.header-card-invited p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-price-invited:hover p {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.card-body-invited h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-price-invited:hover h3 {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.card-body-invited p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -7px;
+}
+
+.card-footer-invited button {
+  height: 45px;
+  width: 215px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.card-price-invited:hover button {
+  transition: all 0.2s ease-in;
+  color: #6c63ff;
+  background-color: white;
+}
+
+.card-footer-invited img {
+  height: 25px;
+}
+
+.card-price-invited:hover .price-wa {
+  transition: all 0.2s ease-in;
+  filter: invert(31%) sepia(81%) saturate(4715%) hue-rotate(208deg) brightness(104%) contrast(86%);
+}
+
+/* filter instagram */
+#filter {
+  margin-top: 50px;
+}
+
+#filter h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3f3d56;
+}
+
+#filter p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3f3d56;
+}
+
+.card-filter-pertama {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_1.png);
+}
+
+.background-filter p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0) !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.card-filter-kedua {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_2.png);
+}
+
+.card-filter-ketiga {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_3.png);
+}
+
+.card-filter-keempat {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_4.png);
+}
+
+.card-filter-kelima {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_5.png);
+}
+
+.card-filter-keenam {
+  border: 3px solid #ffa33c;
+  border-radius: 20px;
+  width: 301px;
+  height: 535px;
+  background-image: url(/src/assets/filter/web_6.png);
+}
+
+.card-filter-pertama:hover .background-filter,
+.card-filter-kedua:hover .background-filter,
+.card-filter-ketiga:hover .background-filter,
+.card-filter-keempat:hover .background-filter,
+.card-filter-kelima:hover .background-filter,
+.card-filter-keenam:hover .background-filter {
+  width: 100%;
+  background-color: #402e7c;
+  border-radius: 0px 0px 15px 15px;
+  transition: all 0.5s ease-in;
+}
+
+.card-filter-pertama:hover .background-filter p,
+.card-filter-kedua:hover .background-filter p,
+.card-filter-ketiga:hover .background-filter p,
+.card-filter-keempat:hover .background-filter p,
+.card-filter-kelima:hover .background-filter p,
+.card-filter-keenam:hover .background-filter p {
+  color: rgba(255, 255, 255, 1) !important;
+  transition: all 0.5s ease-in;
+}
+
+/* Hero Website Landing page */
+#webland {
+  /* background-color: aqua; */
+  height: 65vh;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.hero-webland {
+  background-image: url(../assets/img/Hero-webland.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-webland h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+}
+
+.hero-webland p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Penawaran harga webland */
+.price-webland h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3f3d56;
+}
+
+.price-webland p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-price-webland {
+  height: 520px;
+  width: 270px;
+  border: 2px solid #ffa33c;
+  border-radius: 0 20px 0 20px;
+}
+
+.padding-webland {
+  padding: 20px;
+}
+
+.header-webland {
+  width: 266px;
+  height: 80px;
+  border-radius: 0 18px 0 20px;
+  background-color: #6c63ff;
+}
+
+.card-price-webland:hover .header-webland {
+  border-radius: 18px 0 20px 0;
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+.header-webland h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.card-price-webland:hover .header-webland h3 {
+  color: #6c63ff;
+}
+
+.card-price-webland:hover {
+  border-radius: 20px 0 20px 0;
+  background-color: #6c63ff;
+  transition: all 0.2s ease-in;
+}
+
+.header-card-webland h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-price-webland:hover h2 {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.header-card-webland p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-price-webland:hover p {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.card-body-webland h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-price-webland:hover h3 {
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.card-body-webland p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -7px;
+}
+
+.card-footer-webland button {
+  height: 45px;
+  width: 215px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.card-price-webland:hover button {
+  transition: all 0.2s ease-in;
+  color: #6c63ff;
+  background-color: white;
+}
+
+.card-footer-webland img {
+  height: 25px;
+}
+
+.card-price-webland:hover .price-wa {
+  transition: all 0.2s ease-in;
+  filter: invert(31%) sepia(81%) saturate(4715%) hue-rotate(208deg) brightness(104%) contrast(86%);
+}
+
+/* Portofolio webland */
+.portofolio-webland-pertama {
+  border: 2px solid #ffa33c;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/img/sumbar.png);
+}
+
+.portofolio-webland-pertama:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.portofolio-webland-kedua {
+  border: 2px solid #ffa33c;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/img/bakso.png);
+  transition: transform 0.2s ease-in-out;
+}
+
+.portofolio-webland-kedua:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portofolio-webland-pertama:hover .background-text-webland {
+  background-color: #6c63ff;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  transition: all 0.5s ease-in;
+}
+
+.portofolio-webland-kedua:hover .background-text-webland {
+  background-color: #6c63ff;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  transition: all 0.5s ease-in;
+}
+
+.background-transparant {
+  background-color: rgb(0, 0, 0, 0.2);
+  height: 400px;
+  width: 100%;
+}
+
+.background-text-webland h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0);
+}
+
+.background-text-webland p {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+.portofolio-webland-pertama:hover .background-text-webland h3,
+.portofolio-webland-kedua:hover .background-text-webland h3 {
+  color: rgba(255, 255, 255, 1);
+  transition: all ease-in-out 0.2s;
+}
+
+.portofolio-webland-pertama:hover .background-text-webland p,
+.portofolio-webland-kedua:hover .background-text-webland p {
+  color: rgba(255, 255, 255, 1) !important;
+  transition: all ease-in-out 0.2s;
+}
+
 /* dibawah 992px */
 @media screen and (max-width: 992px) {
   .img-hero {
@@ -267,6 +732,61 @@
   }
   .logo img {
     margin-top: 20px;
+  }
+
+  .hero-invited h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .hero-invited p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .price-item h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .price-item p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .hero-webland h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .hero-webland p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .price-webland h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .price-webland p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #portofolio-webland h1 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  #portofolio-webland p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #penilaian h2 {
+    font-size: 27px;
+    line-height: 40px;
   }
 }
 
@@ -317,6 +837,76 @@
   .card-penilaian p {
     font-size: 14px;
   }
+
+  .hero-invited h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .hero-invited p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .price-item h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .price-item p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #filter h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  #filter p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #penilaian h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .hero-webland h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .hero-webland p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .price-webland h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .price-webland p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #portofolio-webland h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  #portofolio-webland p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  #penilaian h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -364,6 +954,36 @@
     width: min-content;
     height: min-content;
   }
+
+  @-webkit-keyframes upDown {
+    0% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes upDown {
+    0% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
 }
 
 @media screen and (max-width: 525px) {
@@ -377,6 +997,36 @@
 
   .hero-cheklist span {
     font-size: 12px;
+  }
+
+  @-webkit-keyframes upDown {
+    0% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes upDown {
+    0% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
   }
 
   .kedua {

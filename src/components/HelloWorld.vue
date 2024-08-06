@@ -1,5 +1,11 @@
 <script setup></script>
 
-<template><div>Ini konponen whatsapp</div></template>
+<template>
+  <div class="container h-100 testing">initesting</div>
+</template>
 
-<style scoped></style>
+<style scoped>
+.testing {
+  background-color: aqua;
+}
+</style>
